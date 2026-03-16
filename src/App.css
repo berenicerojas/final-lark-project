@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Oswald:wght@600&display=swap');
+
+#root, .app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body, p, span, li, input, label{
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1px;
+}
+
+.main-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.link {
+  text-decoration: none;
+  color: #333;
+}
+
+.active-link {
+  text-decoration: none;
+  color: #1976d2;
+  font-weight: bold;
+  border-bottom: 2px solid #1976d2;
+}
